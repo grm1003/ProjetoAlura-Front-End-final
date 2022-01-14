@@ -1,0 +1,108 @@
+/*-------------------------------CABEÇALHO----------------------------------------------*/
+.cabecalho{ 
+/* background-color:brown ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+/* 
+ .form{
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border-style: hidden;
+    color: #ffffff;
+    opacity:60%;
+
+} */
+
+
+.col-1-cab svg{
+    height: 100%;
+}
+.col-1-cab{
+    /*     background-color: chocolate; */
+        height: 100%;
+    }
+.col-2-cab{
+    height: 100%;
+    align-items: center;
+}
+.col-3-cab{
+/*     background-color: rgb(30, 210, 30); */
+    height: 100%;
+    text-align: right;
+}
+
+.caixa-pesquisa{
+    align-items: center;
+    height: 100%;
+}
+
+.barra-pesquisa{
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border-style: hidden;
+    color: #ffffff; 
+    height: 100%; 
+    width: 100%;  
+    transition: 0.4s;
+}
+
+
+.barra-pesquisa::placeholder {
+    color: #ffffff;
+}
+
+.barra-pesquisa:hover{
+    opacity:76%;
+}
+
+.barra-pesquisa:focus{
+    opacity:84%;  
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+#check, #lupa{
+    display: none;
+}
+
+.img-user{
+    height: 40px;
+    width: 40px;
+}
+
+#liSair{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+#botaoSair{
+        display: inline-flex;
+        align-items: center;
+        gap:4%;
+        height: 100%;
+        padding: .5rem;
+        width: 200px;
+        transition: 0.4s;
+        background-color: black;
+        z-index: 1001;
+}
+#botaoSair:hover{
+    background-color: #192F4A;
+
+}
+
+#botaoSair img{
+    width: 30px;
+    height: 30px;
+}
+
+

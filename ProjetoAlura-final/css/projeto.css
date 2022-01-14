@@ -1,0 +1,84 @@
+.projeto{
+/*     background-color:rgb(78, 243, 235) ; */
+    grid-area: projeto;
+}
+
+.form-projeto input, textarea{
+    width: 100%;
+}
+
+
+.projeto h1 {
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.input{
+    border-radius: 8px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.16);
+    border-style: hidden;
+    color: #ffffff;
+    opacity: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.input::placeholder{
+    color: #ffffff;
+}
+
+
+.input:hover{
+    opacity:76%;
+}
+
+.input:focus{
+    opacity:84%;  
+}
+
+
+.input option{
+color: #000000;
+font-weight: bold;
+background-color: cornflowerblue;
+}
+
+
+ .borda-cor{
+            border:none;
+            border-radius: 8px;
+        }
+
+.cores{
+    border-radius: 8px;
+    width: 100%;
+    margin: 2px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.botao{
+    background-color:#5081FB;
+    color: #000000;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cores::-moz-color-swatch {
+    border-color: red;
+}
+
+.botao:active{
+    border: 4px #3B65C5 solid;
+    background:#7BA4FC;
+    
+}
