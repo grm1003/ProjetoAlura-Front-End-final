@@ -9,6 +9,6 @@ let token = localStorage.getItem('token')
 
 function sair() {
     localStorage.removeItem('token');
-    window.location.href = 'https://torugomarega.github.io/ProjetoAlura/index.html';
+    window.location.href = 'https://grm1003.github.io/ProjetoAlura-Front-End-final/';
 }
 
